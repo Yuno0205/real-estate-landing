@@ -15,10 +15,10 @@ export default function Header() {
       <nav className="fixed top-0 z-10 left-0 right-0">
         <section
           style={{ backgroundColor: "#171C32F0" }}
-          className=" px-[35px] relative"
+          className=" px-9 relative"
         >
           <div className="flex items-center max-w-[1140px] mx-auto h-full">
-            <div className="w-1/6 px-[15px] py-[10px]">
+            <div className="w-1/6 px-4 py-2.5">
               <Link href={"/"}>
                 <Image src={logo} alt="logo" objectFit="cover" height={68} />
               </Link>
